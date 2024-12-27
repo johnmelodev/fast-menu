@@ -1,0 +1,68 @@
+/* [project]/src/app/styles/Home.css [app-client] (css) */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.header {
+  background-color: #171717;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.filters {
+  background-color: #171717;
+  color: #fff;
+  padding: 10px;
+  flex: 1;
+}
+
+.dishes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  flex: 2;
+  padding: 10px;
+}
+
+.sidebar {
+  background-color: #171717;
+  color: #fff;
+  padding: 10px;
+  flex: 1;
+}
+
+
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__container {
+  display: flex;
+}
+
+.page-module___8aEwW__filters {
+  width: 20%;
+}
+
+.page-module___8aEwW__dishes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.page-module___8aEwW__sidebar {
+  width: 20%;
+}
+
+
+/*# sourceMappingURL=src_app_d70aff._.css.map*/

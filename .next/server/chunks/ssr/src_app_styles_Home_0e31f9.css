@@ -1,0 +1,48 @@
+/* [project]/src/app/styles/Home.css [app-client] (css) */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.header {
+  background-color: #171717;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.filters {
+  background-color: #171717;
+  color: #fff;
+  padding: 10px;
+  flex: 1;
+}
+
+.dishes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  flex: 2;
+  padding: 10px;
+}
+
+.sidebar {
+  background-color: #171717;
+  color: #fff;
+  padding: 10px;
+  flex: 1;
+}
+
+
+/*# sourceMappingURL=src_app_styles_Home_0e31f9.css.map*/

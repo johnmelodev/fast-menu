@@ -4,8 +4,8 @@ import Link from "next/link";
 const ProductCard = ({ dish, addToCart }) => {
   return (
     <div>
-      <Image src={dish.image} alt={dish.name} width={200} height={150} />
       <h4>{dish.name}</h4>
+      <Image src={dish.image} alt={dish.name} width={200} height={150} />
       <p>{dish.price}</p>
       <p>{dish.category}</p>
       <p>{dish.tags.join(", ")}</p>

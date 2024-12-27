@@ -1,0 +1,20 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__container {
+  display: flex;
+}
+
+.page-module___8aEwW__filters {
+  width: 20%;
+}
+
+.page-module___8aEwW__dishes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.page-module___8aEwW__sidebar {
+  width: 20%;
+}
+
+/*# sourceMappingURL=src_app_page_module_b52d8e.css.map*/

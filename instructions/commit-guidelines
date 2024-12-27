@@ -3,7 +3,7 @@ feat: add email notifications on new direct messages
 feat(shopping cart): add the amazing button
 feat!: remove ticket list endpoint
 feat: adjusting the application and adding data files
-
+feat: adding simple CSS
 refers to JIRA-1337
 
 BREAKING CHANGES: ticket enpoints no longer supports list all entites.
