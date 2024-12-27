@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Hamburguer",
+    "category": "with meat",
+    "tags": ["fast-food", "light meal"],
+    "price": 15.99,
+    "rating": 4.5,
+    "image": "/images/classic_hamburguer.jpeg",
+    "description": "Delicious classic burger with beef, cheese, lettuce, and tomato."
+  },
+  {
+    "id": 2,
+    "name": "Caesar Salad",
+    "category": "vegetarian",
+    "tags": ["healthy", "light meal"],
+    "price": 12.50,
+    "rating": 4.8,
+    "image": "/images/caesar_salad.jpeg",
+    "description": "Caesar salad with lettuce, croutons, parmesan cheese, and special dressing."
+  },
+  {
+    "id": 3,
+    "name": "Vegan Tapioca",
+    "category": "vegan",
+    "tags": ["healthy"],
+    "price": 10.00,
+    "rating": 4.2,
+    "image": "/images/vegan_tapioca.jpeg",
+    "description": "Vegan tapioca filled with avocado, tomato, and special seasonings."
+  },
+  {
+    "id": 4,
+    "name": "Brazilian Feijoada",
+    "category": "with meat",
+    "tags": ["healthy", "fast food"],
+    "price": 25.99,
+    "rating": 4.7,
+    "image": "/images/brazilian_feijoada.jpeg",
+    "description": "Traditional Brazilian feijoada with selected meats and side dishes."
+  }
+]
