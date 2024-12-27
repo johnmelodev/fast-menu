@@ -1,95 +1,91 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
+
+import { useState, useEffect, useContext } from "react";
+import { CartContext } from "./context/CartContext";
+import menu from "./data/menu.json";
 
 export default function Home() {
-  return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+  const [filteredDishes, setFilteredDishes] = useState(menu);
+  const { cart, setCart } = useContext(CartContext);
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+  const categories = ["com carne", "vegetariano", "vegano"];
+  const tags = ["saudável", "fast food", "refeição leve"];
+
+  const addToCart = (dish) => {
+    setCart((prevCart) => [...prevCart, dish]);
+  };
+
+  const handleCategoryChange = (e) => {
+    const { value } = e.target;
+    setFilteredDishes(
+      menu.filter((dish) => dish.category === value || value === "")
+    );
+  };
+
+  const handleTagChange = (e) => {
+    const { value } = e.target;
+    setFilteredDishes(
+      menu.filter((dish) => dish.tags.includes(value) || value === "")
+    );
+  };
+
+  return (
+    <div>
+      <h1>Catálogo de Pratos</h1>
+      <div>
+        <div>
+          <h3>Filtros</h3>
+          <div>
+            <h4>Categorias</h4>
+            {categories.map((category) => (
+              <label key={category}>
+                <input
+                  type="checkbox"
+                  value={category}
+                  onChange={handleCategoryChange}
+                />
+                {category}
+              </label>
+            ))}
+          </div>
+
+          <div>
+            <h4>Tags</h4>
+            {tags.map((tag) => (
+              <label key={tag}>
+                <input type="checkbox" value={tag} onChange={handleTagChange} />
+                {tag}
+              </label>
+            ))}
+          </div>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        <div>
+          {filteredDishes.map((dish) => (
+            <div key={dish.id}>
+              <img src={dish.image} alt={dish.name} width={200} height={150} />
+              <h4>{dish.name}</h4>
+              <p>{dish.price}</p>
+              <p>{dish.category}</p>
+              <p>{dish.tags.join(", ")}</p>
+              <button onClick={() => addToCart(dish)}>
+                Adicionar ao Carrinho
+              </button>
+              <a href={`/product/${dish.id}`}>Ver detalhes</a>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div>
+        <h2>Resumo do Carrinho</h2>
+        <div>
+          <h2>
+            Total Price: $
+            {cart.reduce((sum, dish) => sum + (dish.price || 0), 0).toFixed(2)}
+          </h2>
+        </div>
+      </div>
     </div>
   );
 }
