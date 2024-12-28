@@ -5,6 +5,7 @@
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
 {
+// components/ProductCard.js
 __turbopack_esm__({
     "default": (()=>__TURBOPACK__default__export__)
 });
@@ -16,12 +17,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const ProductCard = ({ dish, addToCart })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "product-card",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                 children: dish.name
             }, void 0, false, {
                 fileName: "[project]/src/app/components/ProductCard.js",
-                lineNumber: 7,
+                lineNumber: 9,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -31,7 +33,7 @@ const ProductCard = ({ dish, addToCart })=>{
                 height: 150
             }, void 0, false, {
                 fileName: "[project]/src/app/components/ProductCard.js",
-                lineNumber: 8,
+                lineNumber: 10,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -41,21 +43,21 @@ const ProductCard = ({ dish, addToCart })=>{
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/ProductCard.js",
-                lineNumber: 9,
+                lineNumber: 11,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 children: dish.category
             }, void 0, false, {
                 fileName: "[project]/src/app/components/ProductCard.js",
-                lineNumber: 10,
+                lineNumber: 12,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 children: dish.tags.join(", ")
             }, void 0, false, {
                 fileName: "[project]/src/app/components/ProductCard.js",
-                lineNumber: 11,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -65,7 +67,7 @@ const ProductCard = ({ dish, addToCart })=>{
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/ProductCard.js",
-                lineNumber: 12,
+                lineNumber: 14,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -73,21 +75,22 @@ const ProductCard = ({ dish, addToCart })=>{
                 children: "Adicionar ao Carrinho"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/ProductCard.js",
-                lineNumber: 13,
+                lineNumber: 15,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 href: `/product/${dish.id}`,
+                passHref: true,
                 children: "Ver detalhes"
             }, void 0, false, {
                 fileName: "[project]/src/app/components/ProductCard.js",
-                lineNumber: 14,
+                lineNumber: 16,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/ProductCard.js",
-        lineNumber: 6,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 };
@@ -232,16 +235,13 @@ const NavBar = ({ categories, tags, setFilteredDishes })=>{
     const applyFilters = ()=>{
         let filtered = [
             ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$data$2f$menu$2e$json__$28$json$29$__["default"]
-        ]; // Copiar o menu para não alterar diretamente os dados originais
-        // Filtro de Categorias
+        ];
         if (selectedCategories.length > 0) {
             filtered = filtered.filter((dish)=>selectedCategories.some((cat)=>dish.category.toLowerCase().includes(cat.toLowerCase())));
         }
-        // Filtro de Tags
         if (selectedTags.length > 0) {
             filtered = filtered.filter((dish)=>selectedTags.some((tag)=>dish.tags.includes(tag)));
         }
-        // Filtro de Avaliação
         if (ratingFilter) {
             if (ratingFilter === "highToLow") {
                 filtered = filtered.sort((a, b)=>b.rating - a.rating);
@@ -249,7 +249,6 @@ const NavBar = ({ categories, tags, setFilteredDishes })=>{
                 filtered = filtered.sort((a, b)=>a.rating - b.rating);
             }
         }
-        // Filtro de Preço
         if (sortOrder === "lowToHigh") {
             filtered = filtered.sort((a, b)=>a.price - b.price);
         } else if (sortOrder === "highToLow") {
@@ -268,7 +267,7 @@ const NavBar = ({ categories, tags, setFilteredDishes })=>{
                             children: "Preço"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/NavBar.js",
-                            lineNumber: 61,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this),
                         openDropdown === "preco" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -283,12 +282,12 @@ const NavBar = ({ categories, tags, setFilteredDishes })=>{
                                         children: "Menor Preço"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/NavBar.js",
-                                        lineNumber: 65,
+                                        lineNumber: 60,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/NavBar.js",
-                                    lineNumber: 64,
+                                    lineNumber: 59,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -300,24 +299,24 @@ const NavBar = ({ categories, tags, setFilteredDishes })=>{
                                         children: "Maior Preço"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/NavBar.js",
-                                        lineNumber: 75,
+                                        lineNumber: 70,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/NavBar.js",
-                                    lineNumber: 74,
+                                    lineNumber: 69,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/NavBar.js",
-                            lineNumber: 63,
+                            lineNumber: 58,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/NavBar.js",
-                    lineNumber: 60,
+                    lineNumber: 55,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -327,7 +326,7 @@ const NavBar = ({ categories, tags, setFilteredDishes })=>{
                             children: "Categorias"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/NavBar.js",
-                            lineNumber: 90,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, this),
                         openDropdown === "categorias" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -335,35 +334,34 @@ const NavBar = ({ categories, tags, setFilteredDishes })=>{
                             children: categories.map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: ()=>{
-                                            // Reseta outros filtros e aplica o filtro de categoria
                                             setSelectedCategories([
                                                 category
                                             ]);
-                                            setSelectedTags([]); // Reseta tags
-                                            setSortOrder(""); // Reseta preço
-                                            setRatingFilter(""); // Reseta avaliação
+                                            setSelectedTags([]);
+                                            setSortOrder("");
+                                            setRatingFilter("");
                                             applyFilters();
                                         },
                                         children: category
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/NavBar.js",
-                                        lineNumber: 97,
+                                        lineNumber: 92,
                                         columnNumber: 19
                                     }, this)
                                 }, category, false, {
                                     fileName: "[project]/src/app/components/NavBar.js",
-                                    lineNumber: 96,
+                                    lineNumber: 91,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/NavBar.js",
-                            lineNumber: 94,
+                            lineNumber: 89,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/NavBar.js",
-                    lineNumber: 89,
+                    lineNumber: 84,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -373,7 +371,7 @@ const NavBar = ({ categories, tags, setFilteredDishes })=>{
                             children: "Tags"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/NavBar.js",
-                            lineNumber: 117,
+                            lineNumber: 110,
                             columnNumber: 11
                         }, this),
                         openDropdown === "tags" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -381,35 +379,34 @@ const NavBar = ({ categories, tags, setFilteredDishes })=>{
                             children: tags.map((tag)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: ()=>{
-                                            // Reseta outros filtros e aplica o filtro de tag
                                             setSelectedTags([
                                                 tag
                                             ]);
-                                            setSelectedCategories([]); // Reseta categorias
-                                            setSortOrder(""); // Reseta preço
-                                            setRatingFilter(""); // Reseta avaliação
+                                            setSelectedCategories([]);
+                                            setSortOrder("");
+                                            setRatingFilter("");
                                             applyFilters();
                                         },
                                         children: tag
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/NavBar.js",
-                                        lineNumber: 122,
+                                        lineNumber: 115,
                                         columnNumber: 19
                                     }, this)
                                 }, tag, false, {
                                     fileName: "[project]/src/app/components/NavBar.js",
-                                    lineNumber: 121,
+                                    lineNumber: 114,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/NavBar.js",
-                            lineNumber: 119,
+                            lineNumber: 112,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/NavBar.js",
-                    lineNumber: 116,
+                    lineNumber: 109,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -419,7 +416,7 @@ const NavBar = ({ categories, tags, setFilteredDishes })=>{
                             children: "Avaliação"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/NavBar.js",
-                            lineNumber: 142,
+                            lineNumber: 133,
                             columnNumber: 11
                         }, this),
                         openDropdown === "avaliacao" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -434,12 +431,12 @@ const NavBar = ({ categories, tags, setFilteredDishes })=>{
                                         children: "Mais bem avaliado"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/NavBar.js",
-                                        lineNumber: 146,
+                                        lineNumber: 137,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/NavBar.js",
-                                    lineNumber: 145,
+                                    lineNumber: 136,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -451,35 +448,35 @@ const NavBar = ({ categories, tags, setFilteredDishes })=>{
                                         children: "Menos bem avaliado"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/NavBar.js",
-                                        lineNumber: 156,
+                                        lineNumber: 147,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/NavBar.js",
-                                    lineNumber: 155,
+                                    lineNumber: 146,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/NavBar.js",
-                            lineNumber: 144,
+                            lineNumber: 135,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/NavBar.js",
-                    lineNumber: 141,
+                    lineNumber: 132,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/components/NavBar.js",
-            lineNumber: 58,
+            lineNumber: 54,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/components/NavBar.js",
-        lineNumber: 57,
+        lineNumber: 53,
         columnNumber: 5
     }, this);
 };

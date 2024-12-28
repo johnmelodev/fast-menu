@@ -7,7 +7,7 @@ const Filters = ({ categories, tags, setFilteredDishes }) => {
   const [sortOrder, setSortOrder] = useState("");
 
   const applyFilters = () => {
-    let filtered = [...menu]; // Certifique-se de que 'menu' está disponível aqui.
+    let filtered = [...menu];
 
     // Filtro de Categorias
     if (selectedCategories.length > 0) {

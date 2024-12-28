@@ -16,9 +16,8 @@ const NavBar = ({ categories, tags, setFilteredDishes }) => {
   };
 
   const applyFilters = () => {
-    let filtered = [...menu]; // Copiar o menu para não alterar diretamente os dados originais
+    let filtered = [...menu];
 
-    // Filtro de Categorias
     if (selectedCategories.length > 0) {
       filtered = filtered.filter((dish) =>
         selectedCategories.some((cat) =>
@@ -27,14 +26,12 @@ const NavBar = ({ categories, tags, setFilteredDishes }) => {
       );
     }
 
-    // Filtro de Tags
     if (selectedTags.length > 0) {
       filtered = filtered.filter((dish) =>
         selectedTags.some((tag) => dish.tags.includes(tag))
       );
     }
 
-    // Filtro de Avaliação
     if (ratingFilter) {
       if (ratingFilter === "highToLow") {
         filtered = filtered.sort((a, b) => b.rating - a.rating);
@@ -43,7 +40,6 @@ const NavBar = ({ categories, tags, setFilteredDishes }) => {
       }
     }
 
-    // Filtro de Preço
     if (sortOrder === "lowToHigh") {
       filtered = filtered.sort((a, b) => a.price - b.price);
     } else if (sortOrder === "highToLow") {
@@ -56,7 +52,6 @@ const NavBar = ({ categories, tags, setFilteredDishes }) => {
   return (
     <nav className={styles.navBar}>
       <ul>
-        {/* Preço */}
         <li>
           <button onClick={() => handleDropdown("preco")}>Preço</button>
           {openDropdown === "preco" && (
@@ -96,11 +91,10 @@ const NavBar = ({ categories, tags, setFilteredDishes }) => {
                 <li key={category}>
                   <button
                     onClick={() => {
-                      // Reseta outros filtros e aplica o filtro de categoria
                       setSelectedCategories([category]);
-                      setSelectedTags([]); // Reseta tags
-                      setSortOrder(""); // Reseta preço
-                      setRatingFilter(""); // Reseta avaliação
+                      setSelectedTags([]);
+                      setSortOrder("");
+                      setRatingFilter("");
                       applyFilters();
                     }}
                   >
@@ -112,7 +106,6 @@ const NavBar = ({ categories, tags, setFilteredDishes }) => {
           )}
         </li>
 
-        {/* Tags */}
         <li>
           <button onClick={() => handleDropdown("tags")}>Tags</button>
           {openDropdown === "tags" && (
@@ -121,11 +114,10 @@ const NavBar = ({ categories, tags, setFilteredDishes }) => {
                 <li key={tag}>
                   <button
                     onClick={() => {
-                      // Reseta outros filtros e aplica o filtro de tag
                       setSelectedTags([tag]);
-                      setSelectedCategories([]); // Reseta categorias
-                      setSortOrder(""); // Reseta preço
-                      setRatingFilter(""); // Reseta avaliação
+                      setSelectedCategories([]);
+                      setSortOrder("");
+                      setRatingFilter("");
                       applyFilters();
                     }}
                   >
@@ -137,7 +129,6 @@ const NavBar = ({ categories, tags, setFilteredDishes }) => {
           )}
         </li>
 
-        {/* Avaliação */}
         <li>
           <button onClick={() => handleDropdown("avaliacao")}>Avaliação</button>
           {openDropdown === "avaliacao" && (
