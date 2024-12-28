@@ -1,0 +1,40 @@
+/* [project]/src/app/styles/Filters.css [app-client] (css) */
+.filters {
+  padding: 20px;
+  background-color: #171717;
+  color: #fff;
+}
+
+.accordion {
+  margin-bottom: 20px;
+}
+
+.accordion button {
+  display: block;
+  background: #fff;
+  color: #171717;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.accordion button:hover {
+  background-color: #eaeaea;
+}
+
+.applyButton {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.applyButton:hover {
+  background-color: #218838;
+}
+
+/*# sourceMappingURL=src_app_styles_Filters_b52d8e.css.map*/

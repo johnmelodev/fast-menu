@@ -11,7 +11,7 @@ function CartSummary() {
 
   return (
     <div>
-      <h2>Total Price: ${totalPrice.toFixed(2)}</h2>
+      <h2>Preço Total: ${totalPrice.toFixed(2)}</h2>
     </div>
   );
 }

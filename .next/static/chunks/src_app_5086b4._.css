@@ -1,0 +1,88 @@
+/* [project]/src/app/styles/Filters.css [app-client] (css) */
+.filters {
+  padding: 20px;
+  background-color: #171717;
+  color: #fff;
+}
+
+.accordion {
+  margin-bottom: 20px;
+}
+
+.accordion button {
+  display: block;
+  background: #fff;
+  color: #171717;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.accordion button:hover {
+  background-color: #eaeaea;
+}
+
+.applyButton {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.applyButton:hover {
+  background-color: #218838;
+}
+
+
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__container {
+  display: flex;
+}
+
+.page-module___8aEwW__filters {
+  width: 20%;
+}
+
+.page-module___8aEwW__dishes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.page-module___8aEwW__sidebar {
+  width: 20%;
+}
+
+
+/* [project]/src/app/styles/NavBar.css [app-client] (css) */
+.navBar {
+  background-color: #171717;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navBar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navBar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navBar a:hover {
+  text-decoration: underline;
+}
+
+
+/*# sourceMappingURL=src_app_5086b4._.css.map*/

@@ -1,6 +1,19 @@
 /* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .page-module___8aEwW__container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+  color: var(--foreground);
+  padding: 20px;
 }
 
 .page-module___8aEwW__filters {
@@ -9,7 +22,7 @@
 
 .page-module___8aEwW__dishes {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 

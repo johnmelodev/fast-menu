@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/joaomelo/Documents/fast-menu/src/app/styles/NavBar.css"],"sourcesContent":[".navBar {\n  background-color: #171717; /* Preto */\n  color: #ffffff; /* Branco */\n  padding: 10px;\n  display: flex;\n  justify-content: space-around;\n}\n\n.navBar ul {\n  list-style: none;\n  display: flex;\n  gap: 20px;\n  margin: 0;\n  padding: 0;\n}\n\n.navBar button {\n  background: none;\n  border: none;\n  color: #ffffff;\n  font-size: 16px;\n  cursor: pointer;\n}\n\n.navBar button:hover {\n  text-decoration: underline;\n}\n\n.dropdown {\n  position: absolute;\n  background-color: #171717;\n  list-style: none;\n  margin: 0;\n  padding: 10px;\n  border: 1px solid #444;\n  border-radius: 4px;\n  top: 100%;\n}\n\n.dropdown li {\n  margin: 5px 0;\n  cursor: pointer;\n}\n\n.dropdown li:hover {\n  background-color: #333;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;;;;AAQA;;;;;;;;AAQA;;;;AAIA;;;;;;;;;;;AAWA;;;;;AAKA"}},
+    {"offset": {"line": 48, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

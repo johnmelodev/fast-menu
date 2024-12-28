@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/joaomelo/Documents/fast-menu/src/app/styles/Filters.css"],"sourcesContent":[".filters {\n  padding: 20px;\n  background-color: #171717;\n  color: #ffffff;\n}\n\n.accordion {\n  margin-bottom: 20px;\n}\n\n.accordion button {\n  display: block;\n  background: #ffffff;\n  color: #171717;\n  border: none;\n  padding: 10px;\n  width: 100%;\n  text-align: left;\n  margin-bottom: 5px;\n  cursor: pointer;\n}\n\n.accordion button:hover {\n  background-color: #eaeaea;\n}\n\n.applyButton {\n  background-color: #28a745; /* Verde */\n  color: #ffffff;\n  border: none;\n  padding: 10px;\n  cursor: pointer;\n}\n\n.applyButton:hover {\n  background-color: #218838;\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;AAIA;;;;;;;;;;;;AAYA;;;;AAIA;;;;;;;;AAQA"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":["file:///Users/joaomelo/Documents/fast-menu/src/app/page.module.css"],"sourcesContent":["/* app/styles/Home.module.css */\n.container {\n  display: flex;\n}\n\n.filters {\n  width: 20%;\n}\n\n.dishes {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 20px;\n}\n\n.sidebar {\n  width: 20%;\n}\n"],"names":[],"mappings":"AACA;;;;AAIA;;;;AAIA;;;;;;AAMA"}},
+    {"offset": {"line": 58, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

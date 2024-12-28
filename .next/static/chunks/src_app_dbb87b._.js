@@ -201,8 +201,11 @@ const ProductCard = ({ dish, addToCart })=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                children: dish.price
-            }, void 0, false, {
+                children: [
+                    "R$",
+                    dish.price
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/app/components/ProductCard.js",
                 lineNumber: 9,
                 columnNumber: 7
@@ -301,7 +304,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
-__turbopack_export_value__(JSON.parse("[{\"id\":1,\"name\":\"Classic Hamburguer\",\"category\":\"with meat\",\"tags\":[\"fast-food\",\"refeição leve\"],\"price\":15.99,\"rating\":4.5,\"image\":\"/images/classic_hamburguer.jpeg\",\"description\":\"Delicious classic burger with beef, cheese, lettuce, and tomato.\"},{\"id\":2,\"name\":\"Caesar Salad\",\"category\":\"vegetarian\",\"tags\":[\"saudável\",\"refeição leve\"],\"price\":12.5,\"rating\":4.8,\"image\":\"/images/caesar_salad.jpeg\",\"description\":\"Caesar salad with lettuce, croutons, parmesan cheese, and special dressing.\"},{\"id\":3,\"name\":\"Vegan Tapioca\",\"category\":\"vegan\",\"tags\":[\"saudável\"],\"price\":10.0,\"rating\":4.2,\"image\":\"/images/vegan_tapioca.jpeg\",\"description\":\"Vegan tapioca filled with avocado, tomato, and special seasonings.\"},{\"id\":4,\"name\":\"Brazilian Feijoada\",\"category\":\"with meat\",\"tags\":[\"saudável\",\"fast food\"],\"price\":25.99,\"rating\":4.7,\"image\":\"/images/brazilian_feijoada.jpeg\",\"description\":\"Traditional Brazilian feijoada with selected meats and side dishes.\"}]"));}}),
+__turbopack_export_value__(JSON.parse("[{\"id\":1,\"name\":\"Classic Hamburguer\",\"category\":\"com carne\",\"tags\":[\"fast-food\",\"refeição leve\"],\"price\":15.99,\"rating\":4.5,\"image\":\"/images/classic_hamburguer.jpeg\",\"description\":\"Delicious classic burger with beef, cheese, lettuce, and tomato.\"},{\"id\":2,\"name\":\"Caesar Salad\",\"category\":\"vegetarina\",\"tags\":[\"saudável\",\"refeição leve\"],\"price\":12.5,\"rating\":4.8,\"image\":\"/images/caesar_salad.jpeg\",\"description\":\"Caesar salad with lettuce, croutons, parmesan cheese, and special dressing.\"},{\"id\":3,\"name\":\"Vegan Tapioca\",\"category\":\"vegana\",\"tags\":[\"saudável\"],\"price\":10.0,\"rating\":4.2,\"image\":\"/images/vegan_tapioca.jpeg\",\"description\":\"Vegan tapioca filled with avocado, tomato, and special seasonings.\"},{\"id\":4,\"name\":\"Brazilian Feijoada\",\"category\":\"com carne\",\"tags\":[\"saudável\",\"fast food\"],\"price\":25.99,\"rating\":4.7,\"image\":\"/images/brazilian_feijoada.jpeg\",\"description\":\"Traditional Brazilian feijoada with selected meats and side dishes.\"}]"));}}),
 "[project]/src/app/page.module.css [app-client] (css module)": ((__turbopack_context__) => {
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;

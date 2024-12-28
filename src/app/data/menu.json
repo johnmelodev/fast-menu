@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Classic Hamburguer",
-    "category": "with meat",
+    "category": "com carne",
     "tags": ["fast-food", "refeição leve"],
     "price": 15.99,
     "rating": 4.5,
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Caesar Salad",
-    "category": "vegetarian",
+    "category": "vegetariana",
     "tags": ["saudável", "refeição leve"],
     "price": 12.50,
     "rating": 4.8,
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "name": "Vegan Tapioca",
-    "category": "vegan",
+    "category": "vegana",
     "tags": ["saudável"],
     "price": 10.00,
     "rating": 4.2,
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "name": "Brazilian Feijoada",
-    "category": "with meat",
+    "category": "com carne",
     "tags": ["saudável", "fast food"],
     "price": 25.99,
     "rating": 4.7,

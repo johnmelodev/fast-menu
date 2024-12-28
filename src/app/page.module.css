@@ -1,7 +1,23 @@
 /* app/styles/Home.module.css */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
 .container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+  color: var(--foreground);
+  padding: 20px;
 }
+
 
 .filters {
   width: 20%;
@@ -9,7 +25,7 @@
 
 .dishes {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
